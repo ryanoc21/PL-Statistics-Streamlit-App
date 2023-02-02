@@ -10,7 +10,7 @@ from datetime import date
 
 class DataProcess:
 
-    def __init__(self, team, top_score_codes):
+    def __init__(self, team):
         self.team = team
 
         # Store each team code in a dictionary
