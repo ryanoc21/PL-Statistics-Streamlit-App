@@ -10,7 +10,8 @@ st.title("Premier League Team Top Scorer Stats ⚽️")
 st.write("""
 This web app uses python to scrape data about premier league teams. The user can input their chosen team 
 and data about the top scorers will be displayed back to them. Data are read using the pandas read html method 
-and the plots are produced using plotly. All data are taken from https://fbref.com/en/. 
+and the plots are produced using plotly. All data are taken from https://fbref.com/en/. The source code for this 
+project is available on my github https://github.com/ryanoc21/PL-Statistics-Streamlit-App. 
 """)
 team = st.selectbox("Pick a team",
                     ("Arsenal", "Liverpool", "Manchester City", "Manchester Utd",
